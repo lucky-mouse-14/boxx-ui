@@ -1,0 +1,25 @@
+{
+  "name": "boxx-ui",
+  "version": "1.0.0",
+  "description": "A Vue3 Components UI Library",
+  "main": "lib/index.ts",
+  "modlue": "es/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "boxx-ui",
+    "Vue3",
+    "Vite",
+    "Components Library"
+  ],
+  "author": "Jiahao Wu",
+  "license": "MIT",
+  "dependencies": {
+    "@boxx-ui/utils": "workspace:^1.0.0"
+  }
+}
